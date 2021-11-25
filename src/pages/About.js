@@ -9,8 +9,11 @@ const About = () => {
 
   return (
     <div className="countries">
+      <Navigation />
+      <Logo />
       <h1>  Bonjour c'est une petite application sur Stars Wars, j'utilise ReactJs pour une petite remise en compétences !
     </h1>
+    <br/>
     <h2>J'utilise l'API : https://miadil.github.io/starwars-api/api/all.json</h2>
 
     </div>
